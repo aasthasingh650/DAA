@@ -92,6 +92,6 @@ The Space complexity of the program is O(m*log(n)). This is because we allocate 
 
 ***
 ## References
-1. [https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf](Introduction to Algorithms)
+1. [https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf] (Introduction to Algorithms)
 2. [https://www.geeksforgeeks.org/longest-common-prefix-using-divide-and-conquer-algorithm/](https://www.geeksforgeeks.org/longest-common-prefix-using-divide-and-conquer-algorithm/)
 3. [https://stackoverflow.com/questions/49436211/longest-common-prefix-divide-and-conquer-approach-complexity-analysis](https://stackoverflow.com/questions/49436211/longest-common-prefix-divide-and-conquer-approach-complexity-analysis)
