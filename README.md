@@ -83,8 +83,10 @@ In this problem we have to find the longest common prefix for given ‘n’ stri
 ## Analysis
 ### Time Complexity
 The algorithms were tested against positive random sets of variable sizes.The result thus obtained from this experiment is given below:
+Since in the lcp function, we are iterating through all the strings in the string array so the complexity of the function will be O(n*m) where n is the total number of strings in the array of strings and m is the length of the longest string among them.
 
 ### Space Complexity
+The Space complexity of the program is O(m*log(n)). This is because we allocate space to the resultant string or the longest common prefix string. There will be a maximum of log(n) divisions and each string returned will have a maximum size of m.
 
 ***
 ## References
