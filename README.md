@@ -8,13 +8,15 @@
 
 **Group No-**"26"
 
-**Faculty Name-**"Md. Javed"
+**Faculty Name-**"Md. Javed Sir"
 
-**Mentor Name-** "Md. Meraz"
+**Mentor Name-** "Md. Meraz Sir"
 ***
 
 ## This Repo is for submitting all of our DAA  C2 assignments which are being evaluated by TA Sir Meraz.
 ---
+## Problem Statement
+Find the longest common Prefix using Divide & Conquer method
 
 ## How to use code
 
@@ -26,11 +28,11 @@ git clone https://github.com/aasthasingh650/DAA
 Project Initialize
 
 ```cd daa
-#create assignment-1 folder
-mkdir assignment_01
+#create Assignment4 folder
+mkdir Assignment4
 
-#go to assignment-1
-cd assignment_01
+#go to Assignment4
+cd Assignment4
 
 #Create file
 touch readme.md
@@ -41,7 +43,7 @@ touch readme.md
 ***
 Run the code
 ```
-Divide_conquer.cpp
+code.cpp
 
 ```
 Output
@@ -53,15 +55,29 @@ Longest common prefix
 ### Test case
 ```
 Test case-1
-Input:
-Out:
+Input: 
+5
+India
+Indonesia
+Indiana
+Indian
+IndianOcean
+Out: 
+Ind
 #--------------------------#
-Test case-1
+Test case-2
 Input:
+4
+App
+Ape
+Apple
+Aps
 Out:
+Ap
 ```
 ***
 ## Theory
+In this problem we have to find the longest common prefix for given ‘n’ strings. We know that the common prefix for any two strings will be the  consecutive common character from the start of the strings. Here, the longest common prefix between two strings will be calculated by simply comparing the strings by iterating through them.
 
 ***
 ## Analysis
