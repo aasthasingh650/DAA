@@ -77,7 +77,9 @@ Ap
 ```
 ***
 ## Theory
-In this problem we have to find the longest common prefix for given ‘n’ strings. We know that the common prefix for any two strings will be the  consecutive common character from the start of the strings. Here, the longest common prefix between two strings will be calculated by simply comparing the strings by iterating through them.
+In this problem we have to find the longest common prefix for given ‘n’ strings. We know that the common prefix for any two strings will be the  consecutive common character from the start of the strings. Here, the longest common prefix between two strings is calculated using the divide and conquer approach.
+
+The array of strings is divided into two parts. The same is done for the left part and then the right part. We keep on dividing the arrays until we get a single string. Now we start conquering by returning the longest common prefix between the strings returned by the left and the right part.This way at the end we will get the longest common prefix of the array of strings.
 
 ***
 ## Analysis
@@ -90,5 +92,6 @@ The Space complexity of the program is O(m*log(n)). This is because we allocate 
 
 ***
 ## References
-1. [https://www.geeksforgeeks.org/longest-common-prefix-using-divide-and-conquer-algorithm/](https://www.geeksforgeeks.org/longest-common-prefix-using-divide-and-conquer-algorithm/)
-2. [https://stackoverflow.com/questions/49436211/longest-common-prefix-divide-and-conquer-approach-complexity-analysis](https://stackoverflow.com/questions/49436211/longest-common-prefix-divide-and-conquer-approach-complexity-analysis)
+1. [https://edutechlearners.com/download/Introduction_to_algorithms-3rd%20Edition.pdf](Introduction to Algorithms)
+2. [https://www.geeksforgeeks.org/longest-common-prefix-using-divide-and-conquer-algorithm/](https://www.geeksforgeeks.org/longest-common-prefix-using-divide-and-conquer-algorithm/)
+3. [https://stackoverflow.com/questions/49436211/longest-common-prefix-divide-and-conquer-approach-complexity-analysis](https://stackoverflow.com/questions/49436211/longest-common-prefix-divide-and-conquer-approach-complexity-analysis)
