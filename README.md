@@ -83,6 +83,8 @@ In this problem we have to find the longest common prefix for given ‘n’ stri
 The array of strings is divided into two parts. The same is done for the left part and then the right part. We keep on dividing the arrays until we get a single string. Now we start conquering by returning the longest common prefix between the strings returned by the left and the right part.This way at the end we will get the longest common prefix of the array of strings.
 
 ***
+![Example Diagram](https://github.com/aasthasingh650/DAA/blob/main/Assignment4/Example.jpg)
+
 ## Analysis
 ### Time Complexity
 The algorithms were tested against positive random sets of variable sizes.The result thus obtained from this experiment is given below:
