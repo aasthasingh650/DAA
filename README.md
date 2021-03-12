@@ -27,7 +27,8 @@ git clone https://github.com/aasthasingh650/DAA
 
 Project Initialize
 
-```cd daa
+```
+cd DAA
 #create Assignment4 folder
 mkdir Assignment4
 
@@ -43,7 +44,7 @@ touch readme.md
 ***
 Run the code
 ```
-code.cpp
+g++ code.cpp
 
 ```
 Output
